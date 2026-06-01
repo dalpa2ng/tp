@@ -29,17 +29,17 @@ function draw() {
   // 배경
   if (currentBg === 'home') {
     if (bg_home) {
-      image(bg_home, 0, 0, width, height);
+      image(bg_home, 0, -height * 0.08, width, height * 1.08);
     }
   } 
   else if (currentBg === 'lab') {
     if (bg_lab) {
-      image(bg_lab, 0, -height * 0.03, width, height * 1.03);
+      image(bg_lab, 0, -height * 0.1, width, height * 1.1);
     }
   } 
   else if (currentBg === 'sea') {
-    if (bg_sea) {
-      image(bg_sea, 0, 0, width, height);
+   if (bg_sea) {
+      image(bg_sea, 0, -height * 0.08, width, height * 1.08);
     }
   }
 
